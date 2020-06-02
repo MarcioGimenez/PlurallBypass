@@ -1,3 +1,0 @@
-import urllib
-
-print("teste")
