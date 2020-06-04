@@ -1,0 +1,1 @@
+só roda o script.py com algum app de python ai,nao esquece que vc tem qe fazer a API enviar o email pra funcionar, e ai da de boa 
